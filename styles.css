@@ -3,3 +3,11 @@
 body{
     font-family: 'Playfair Display', serif;
 }
+
+h1{
+    font-weight: bolder
+}
+
+p{
+    font-weight:lighter
+}
