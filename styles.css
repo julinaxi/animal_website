@@ -11,3 +11,22 @@ h1{
 p{
     font-weight:lighter
 }
+/* unvisited link */
+a:link {
+    color: hsl(0, 54%, 74%);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #6d3b1ede;
+  } y
+  
+  /* mouse over link */
+  a:hover {
+    color: #636044;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
