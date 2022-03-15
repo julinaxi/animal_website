@@ -8,8 +8,49 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Resources</h1>
-    <iframe frameBorder="0" src="navigation.html"></iframe>
+    <style>body {
+        background-color: #dfc8ab;
+    }
+        </style>
+    <iframe frameBorder="0" src="navigation_left.html" width="100%" height= "40px"></iframe>
+    <h1>Contact Us</h1>
+
+    <img src="https://media.istockphoto.com/photos/woman-and-her-golden-retriever-shaking-hands-picture-id1290341951?k=20&m=1290341951&s=612x612&w=0&h=gs86K70YwFTgfNCFAtIXIcou34xAA3tUSE_vO8yhUZ0=" alt="handshake" width="500" height="400"><br>
     
+    <p>Do You have a Pet? </p>
+    <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+    method="post">
+        <input type="radio" id="Yes" name="Yes/No_pet " value="Yes">
+        <label for="Yes">Yes</label><br>
+        <input type="radio" id="No" name="Yes/No_pet" value="No">
+        <label for="No">No</label><br>
+        <br/>
+        <label for="W_type">What Animal Pet You have? </label><br>
+        <input type="checkbox" id="Pet1" name="Pet1" value="Cat">
+        <label for="Cat">Cat</label><br>
+        <input type="checkbox" id="Pet2" name="Pet2" value="Dog">
+        <label for="Dog">Dog</label><br>
+        <input type="checkbox" id="Pet3" name="Pet3" value="Rabbit">
+        <label for="Rabbits">Rabbits</label><br>
+        <input type="checkbox" id="Pet4" name="Pet4" value="Birds">
+        <label for="Birds">Birds</label><br>
+        <input type="checkbox" id="other" name="Pet5" value="Other">
+        <label for="Other">Other</label><br>
+
+        <br/>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="pnum">Phone Number</label><br>
+        <input type="text" id="pnum" name="pnum"><br>
+        <input type="Submit">
+        <input name="send-to" value="jnaxi@brooklynsteamcenter.org" hidden>
+       
+    </form>
+   
+     
 </body>
 </html>
