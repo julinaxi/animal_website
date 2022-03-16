@@ -30,3 +30,24 @@ a:link {
   a:active {
     color: #0000FF;
   }
+  input[type=submit]{
+    background-color: rgb(143, 99, 34);
+    padding: 8px;
+    border-radius: 4px;
+   }
+   input[type=submit]:active{
+    background-color: rgb(224, 193, 127);
+   }
+   input[type=submit]:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgba(228, 221, 214, 0.555)
+   }
+
+   input[type=text] {
+    width: 20%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 3px solid #555;
+    border: 2px solid rgb(173, 133, 57);
+   }
